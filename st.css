@@ -1,0 +1,41 @@
+/* global variables */
+* {
+    --in0: #334155
+    --in1: #1E293B;
+    --in2: #0F172A;
+    --acc: #F97316;
+
+    font-family: "JetBrains Mono", monospace;
+
+}
+
+
+html {
+    background-image: linear-gradient(to bottom right,#1E293B, #0F172A);
+}
+
+
+.header {
+    min-height: 200px;
+    background-image: linear-gradient(to bottom right,#334155, #1E293B);
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 2px solid var(--acc);
+}
+
+.cont {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 400px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.cell {
+    background-color: #fff;
+    min-width: 400px;
+    min-height: 200px;
+    border-radius: 8px;
+}
