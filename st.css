@@ -78,4 +78,6 @@ p {text-align: justify; padding: 4pt;}
 
 b#youknow {transition: linear;}
 
-img { text-align: center; width: 100%;border-radius: 8pt; border: 4pt var(--in2) solid;}
+img { text-align: center; width: 95%;border-radius: 8pt; border: 4pt var(--in2) solid;}
+
+.tag {font-size: 9pt; text-align: center;}
