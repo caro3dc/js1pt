@@ -63,6 +63,7 @@ h1 { text-align: center; font-weight: 800; color: var(--fg); font-size: 32pt;}
     width: 100%;
     border-radius: 8pt;
     background-image: linear-gradient(to bottom right,#334155, #1E293B); 
+    padding-bottom: 32pt;
 }
 
 .what h1 { padding: 16pt;}
@@ -85,3 +86,5 @@ img { text-align: center; width: 95%;border-radius: 8pt; border: 4pt var(--in2) 
 .footer { margin: 16pt; text-align:center; font-size: 12pt; color: var(--acc);}
 
 .footer a { color: var(--acc); }
+
+.lyric { font-size: 10pt;}
