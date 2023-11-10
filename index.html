@@ -78,13 +78,15 @@
 
                 <div class="cell demo">
                     <h2>Questionable Content</h2>
-                    <p><span>Only available on Sundays.</span></p>
+                    <p style="text-align: center;">This is where we use our knowledge on JS Conditionals. Questionable Content only available on Sundays.</p>
                     <div id="sus"></div>
 
                     <script>
                         var d = new Date().getDay();
-if (d = 0) {
-    document.getElementById("sus").innerHTML = "<img style='text-align:center;' src='amogus.webp'></img>";
+if (d == 0) {
+    document.getElementById("sus").innerHTML = "<div class='imgcont'><img style='text-align:center;' src='amogus.webp'></img></div>";
+} else {
+    document.getElementById("sus").innerHTML = "<b>It is not a Sunday.</b> <i>Lorem ipsum dolor sit amet...</i>";
 }
                     </script>
                 </div>
@@ -95,6 +97,9 @@ if (d = 0) {
 
     </div>
 
+    <div class="footer">
+        Tritium. MAWD-12, STI Baguio. 11 Nov 2023 R. <a href="https://github.com/caro3dc/js1pt">Source code here.</a>
+    </div>
     
 </body>
 </html>
