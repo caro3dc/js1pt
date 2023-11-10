@@ -71,7 +71,7 @@ p {text-align: justify; padding: 4pt;}
 .who p {text-align: center;}
 
 
-.buttoncont { width: auto; display:flex; justify-content: center;}
+.buttoncont, .imgcont { width: auto; display:flex; justify-content: center;}
 .cell button { text-align:center; color: var(--fg); background-image: linear-gradient(to bottom right,#1E293B, #0F172A); border: none; border-radius: 4px; padding: 4pt; }
 
 #input {width: auto; text-align: center; margin: 8pt;}
